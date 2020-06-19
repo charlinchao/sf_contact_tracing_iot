@@ -30,7 +30,7 @@ router.get('/add', async (req, res) => {
   const extId = uuidv4();
   const startTime = new Date();
   const duration = 30;
-  const locId = '1315w000000De3SAAS';
+  const locId = '1313h000000Lbt9AAC';
 
   const results = await client.query("INSERT INTO salesforce.ContactEncounter(name,starttime,encounterduration,external_id__c,locationid) Values($1,$2,$3,$4,$5)",
   [name, startTime, duration, extId, locId]);
