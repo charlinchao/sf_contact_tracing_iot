@@ -2,7 +2,8 @@ const { v4: uuidv4 } = require('uuid');
 var express = require('express');
 var router = express.Router();
 const { Pool } = require('pg');
-var connStr = process.env.DATABASE_URL || 'postgres://kpaelduqstghfg:3bb65431d85acdc8447664ceedc5f23518605e0a620a12d200c895708d6831f5@ec2-35-169-254-43.compute-1.amazonaws.com:5432/df5g3lmv8p7nvg';
+var connStr = process.env.DATABASE_URL || 'postgres://qeynghjkzdrmps:3fc86ee2f47ee9881b8ecffb23e434ebc3c7566c62c3423306e929f9ba090433@ec2-54-225-205-79.compute-1.amazonaws.com:5432/dfuqjsprjfgfae
+';
 
 
 
